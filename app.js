@@ -8,10 +8,10 @@ app.get(contextRoot, (req, res) => {
 
 // Return 200 OK for load balancer check
 app.get('/check', (req, res) => {
-    res.status(200).end();s
+  res.status(200).end();
+  s
 
 });
-
 
 var port = 80;
 app.listen(port);
