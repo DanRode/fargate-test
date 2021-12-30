@@ -1,0 +1,14 @@
+{
+  "name": "drode-test-app",
+  "version": "0.0.1",
+  "description": "Node.js on Docker x",
+  "author": "Dan Rode <dan.rode@mtdproducts.com>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "applicationinsights": "^1.4.2"
+  }
+}
